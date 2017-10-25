@@ -38,3 +38,18 @@ After starting, a local dev server with HMR will be running at localhost:3000. B
 * The elastic lunr example is using `expand=false` and if there are no results, it runs `expand=true` which loosens the search and gives more results. 
 * Debounce is set to 800ms. Searching is synchronous so it performance is brutal if not debounced.
 
+# MOBY DICK IS COOL, BUT HOW CAN I TRY THIS WITH MY DATA?
+This is nbd. Fork this repo, then: 
+
+* Indexing: replace `data.json` with your dataset and tweak the indexing code. 
+* Searching: change the `idx.search(...)` parameters to fit your needs.. boosts, wildcards, whatever you like.
+* Profit.
+
+# CAN I USE THIS TO DEMO SEARCH ANOTHER TEAM
+This is exactly why this project was started. Generally, you can do this: 
+
+1. update the `pagePath ''` in webpack.config.js
+2. run `yarn run build` (npm if you like). 
+* Copy the `tmp` folder to your favorite static file server (github pages, s3, or whatever).
+
+
