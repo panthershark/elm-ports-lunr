@@ -1,0 +1,13 @@
+{
+  "version": "0.0.0",
+  "summary": "Starter kit for re-using elm functions",
+  "repository": "https://github.com/tommymessbauer/elm-starter.git",
+  "license": "MIT",
+  "source-directories": [ "src/elm" ],
+  "exposed-modules": [ "Search" ],
+  "dependencies": {
+    "elm-lang/core": "5.0.0 <= v < 6.0.0",
+    "elm-lang/html": "2.0.0 <= v < 3.0.0"
+  },
+  "elm-version": "0.18.0 <= v < 0.19.0"
+}
