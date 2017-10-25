@@ -34,7 +34,7 @@ After starting, a local dev server with HMR will be running at localhost:3000. B
 
 # THINGS TO CONSIDER
 
-* There is lag in page load b/c the entire text of Moby Dick is indexed on the fly in the browser on page load. In production, you should build the index ahead of time and send it down from the server.
+* There is lag in page load b/c the entire text of Moby Dick is indexed on the fly in the browser. In production, you should build the index ahead of time and send it down from the server.
 * The elastic lunr example is using `expand=false` and if there are no results, it runs `expand=true` which loosens the search and gives more results. 
 * Debounce is set to 800ms. Searching is synchronous so it performance is brutal if not debounced.
 
