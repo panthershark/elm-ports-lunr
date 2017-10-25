@@ -1,5 +1,5 @@
 {
-  "name": "lunr",
+  "name": "elm-ports-lunr",
   "version": "0.0.2",
   "description": "Demo of lunr.js and elasticlunr.js using Elm and ports",
   "main": "index.js",
