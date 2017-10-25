@@ -45,7 +45,7 @@ This is nbd. Fork this repo, then:
 * Searching: change the `idx.search(...)` parameters to fit your needs.. boosts, wildcards, whatever you like.
 * Profit.
 
-# CAN I USE THIS TO DEMO SEARCH ANOTHER TEAM
+# CAN I USE THIS TO PROTOTYPE SEARCH TO OTHERS?
 This is exactly why this project was started. Generally, you can do this: 
 
 1. update the `pagePath ''` in webpack.config.js
