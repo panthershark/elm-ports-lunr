@@ -4,8 +4,15 @@ Example project which shows how to use ports in elm with a js library.
 
 This demo indexes the full text of Moby Dick, with each paragraph in a separate record. You can find good search terms by looking [here](https://www.gutenberg.org/files/2701/2701-h/2701-h.htm).
 
+The search libraries:
+
 * [LUNR](https://lunrjs.com/)
 * [ELASTIC LUNR](http://elasticlunr.com/)
+
+The Demos:
+
+* [LUNR DEMO](https://tommymessbauer.github.io/elm-ports-lunr/docs/lunr/index.html)
+* [ELASTIC LUNR DEMO](https://tommymessbauer.github.io/elm-ports-lunr/docs/elasticlunr/index.html)
 
 
 # GET STARTED
