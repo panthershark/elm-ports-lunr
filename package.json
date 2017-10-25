@@ -1,6 +1,6 @@
 {
   "name": "elm-ports-lunr",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Demo of lunr.js and elasticlunr.js using Elm and ports",
   "main": "index.js",
   "repository": "git@github.com:tommymessbauer/elm-starter.git",
