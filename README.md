@@ -51,5 +51,3 @@ This is exactly why this project was started. Generally, you can do this:
 1. update the `pagePath ''` in webpack.config.js
 2. run `yarn run build` (npm if you like). 
 * Copy the `tmp` folder to your favorite static file server (github pages, s3, or whatever).
-
-
